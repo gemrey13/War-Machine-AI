@@ -79,6 +79,17 @@ curl.exe -X POST [http://127.0.0.1:3000/ask](http://127.0.0.1:3000/ask) `
 
 ---
 
+
+## 📝 Example Response
+
+Below is a live look at **War-Machine** in action. Notice the low-latency streaming and the character-driven persona.
+
+![War-Machine Response Output](./response.png)
+
+> **Note:** On an i5-1235U, the first token is delivered in ~1.2s, with a full response completed in under 9s thanks to streaming optimizations.
+
+---
+
 ## 📜 License
 MIT - Created for the War-Machine Project. 🤖🦾
 """
