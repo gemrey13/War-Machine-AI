@@ -1,0 +1,19 @@
+{
+  "name": "war-machine-ai",
+  "version": "1.0.0",
+  "description": "A low-latency Express.js bridge for the War-Machine local AI model, optimized for streaming and high-performance CPU inference using Ollama.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["ollama", "war-machine", "express", "ai-character", "streaming"],
+  "author": "Gem",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "ollama": "^0.6.3"
+  }
+}
